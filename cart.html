@@ -1,146 +1,123 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
-    <title>Blog Xogos Tradicionais</title>
+    <title>Carrito de Compras - Xogos Tradicionais Galegos</title>
 </head>
 <body>
-    <header>
-        <div class="logo-and-subtitle-container">
-            <img src="./assets/img/Juegos tradicionales de Galicia.jpg" alt="logo de Xogos Tradicionais Galegos" class="logo destacado" />
-            <p id="subtitle-phrase-xtg">Reconecta co pasado</p>
+	<header>
+		<div class="logo-and-subtitle-container">
+				<img src="./assets/img/Juegos tradicionales de Galicia.jpg" alt="logo de Xogos Tradicionais Galegos" class="logo destacado" />
+				<p id="subtitle-phrase-xtg">Reconecta co pasado</p>
+		</div>
+		<div class="title-container">
+				<h1>Xogos Tradicionais Galegos</h1>
+				<nav class="main-nav">
+						<a href="index.html">Inicio</a>
+						<a href="services.html">Servizos ofrecidos</a>
+						<a href="shop.html">Tenda xogos tradicionais</a>
+						<a href="games-documentation.html">Fondo documental historico</a>
+						<a href="blog.html">Blog Xogos Tradicionais</a>
+						<a href="contact.html">Contacta con nos</a>
+						<a href="cart.html">
+								<img class="shop-cart-img" src="./assets/img/carrito-de-compras.png" alt="Accede a mi carrito de compras">
+						</a>
+				</nav>
+		</div>
+</header>
+    <main>
+        <div class="main-page-container">
+            <h2>Mi carrito</h2>
+            <div class="data-card-container">
+                <section class="order-summary-section">
+                    <h3>Resumen del pedido</h3>
+
+                    <!-- Filas de productos -->
+                    <article class="product-data-container">
+                        <div class="units-product-title-container">
+                            <p class="units">2 x</p>
+                            <p class="title">Producto 1</p>
+                            <p class="euros-per-units">10.00 €</p>
+                        </div>
+                        <div class="price-container-same-type-container">
+                            <p>20.00 €</p>
+                        </div>
+                    </article>
+
+                    <article class="product-data-container">
+                        <div class="units-product-title-container">
+                            <p class="units">1 x</p>
+                            <p class="title">Producto 2</p>
+                            <p class="euros-per-units">15.00 €</p>
+                        </div>
+                        <div class="price-container-same-type-container">
+                            <p>15.00 €</p>
+                        </div>
+                    </article>
+
+                    <div class="total-cost-container">
+                        <div class="base-container">
+                            <p>Base:</p>
+                            <p>35.00 €</p>
+                        </div>
+                        <div class="iva-container">
+                            <p>I.V.A. (21%):</p>
+                            <p>7.35 €</p>
+                        </div>
+                        <hr />
+                        <div class="iva-container total">
+                            <p>Total:</p>
+                            <p>42.35 €</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="shipping-address-section">
+                    <h3>Dirección de envío</h3>
+                    <div class="data-client-container">
+                        <p class="buyer-name-lastname">Juan Pérez</p>
+                        <p class="buyer-direction-1">Calle Principal, 123</p>
+                        <p class="buyer-direction-2">28001, Madrid</p>
+                    </div>
+                </section>
+								<div class="checkbox-terms-and-conditions-container">
+									<label for="terms-condictions-checkbox">
+											<input type="checkbox" name="terms-condictions-checkbox" id="terms-condictions-checkbox" />
+											Al seleccionar la opción aceptas los <a href="#">Términos y condiciones</a>.
+									</label>
+							</div>
+							
+							<div class="pay-button-container">
+									<button type="submit" id="pay-button">Pagar</button>
+							</div>
+							
+            </div>
         </div>
-        <div class="title-container">
-            <h1>Xogos Tradicionais Galegos</h1>
-						<nav class="main-nav">
-							<a href="index.html">Inicio</a>
-							<a href="services.html">Servizos ofrecidos</a>
-							<a href="shop.html">Tenda xogos tradicionais</a>
-							<a href="games-documentation.html">Fondo documental historico</a>
-							<a href="blog.html">Blog Xogos Tradicionais</a>
-							<a href="contact.html">Contacta con nos</a>
-							<a href="cart.html">
-								<img class="shop-cart-img" src="" alt="Accede a mi carrito de compras">
-								<p>O meu carrito</p>
-							</a>
-						</nav>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="main-links-container">
+                <p>Conócenos en nuestras redes sociales</p>
+                <div class="links-container">
+                    <a href="#">
+                        <img src="./assets/img/logotipo-circular-de-facebook.png" alt="acceso a nuestra página de Facebook" />
+                    </a>
+                    <a href="#">
+                        <img src="./assets/img/logotipo-de-instagram.png" alt="acceso a nuestro Instagram" />
+                    </a>
+                    <a href="#">
+                        <img src="./assets/img/youtube.png" alt="acceso a nuestro canal de Youtube" />
+                    </a>
+                    <a href="#">
+                        <img src="./assets/img/whatsapp.png" alt="Accede a nuestro canal de difusión en Whatsapp" />
+                    </a>
+                </div>
+            </div>
+            <div>
+                <p>Derechos de autor Xogos Tradicionais Galegos</p>
+            </div>
         </div>
-    </header>
-		<main>
-			<div class="main-page-container">
-				<h2>Mi carrito</h2>
-				<div class="data-card-container">
-					<div class="summary-and-direction-container">
-						<section class="order-summary-section">
-							<h3>Resumen del pedido</h3>
-
-							<!-- Filas de productos -->
-
-							<article class="product-data-container">
-								<div class="units-product-title-container">
-									<p class="units">2 x</p>
-									<p class="title"></p>
-									<p class="euros-per-units">XX.XX €</p>
-								</div>
-								<div class="price-container-same-type-container">
-									<p>XX.XX</p>
-								</div>
-							</article>
-
-							<article class="product-data-container">
-								<div class="units-product-title-container">
-									<p class="units">2 x</p>
-									<p class="title"></p>
-									<p class="euros-per-units">XX.XX €</p>
-								</div>
-								<div class="price-container-same-type-container">
-									<p>XX.XX</p>
-								</div>
-							</article>
-
-							<article class="product-data-container">
-								<div class="units-product-title-container">
-									<p class="units">2 x</p>
-									<p class="title"></p>
-									<p class="euros-per-units">XX.XX €</p>
-								</div>
-								<div class="price-container-same-type-container">
-									<p>XX.XX</p>
-								</div>
-							</article>
-
-							<div class="total-cost-container">
-								<div class="base-container">
-									<p>Base:</p>
-									<p>X.XX €</p>
-								</div>
-								<div class="iva-container">
-									<p>I.V.A.:</p>
-									<p>X.XX €</p>
-								</div>
-								<hr />
-								<div class="iva-container">
-									<p>Total:</p>
-									<p>X.XX €</p>
-								</div>
-							</div>
-						</section>
-						<section class="shipping-address-section">
-							<h3>Dirección de envío</h3>
-							<div class="data-client-container">
-								<p class="buyer-name-lastname"></p>
-								<p class="buyer-direction-1"></p>
-								<p class="buyer-direction-2"></p>
-							</div>
-						</section>
-						<div class="checkbox-terms-and-conditions-container">
-							<input type="checkbox" name="terms-condictions-checkbox" id="terms-condictions-checkbox" />
-							<p>Al seleccionar la opción aceptas los <a href="">Terminos y condiciones</a>.</p>
-						</div>
-						<button type="submit" id="pay-button">Pagar</button>
-					</div>
-					<div class="buy-img-container-">
-						<img class="buy-img" src="" alt="" />
-						<div class="img-data-container">
-							<div class="units-container">
-								<p class="units-quantity"></p>
-								<p class="unit-x"></p>
-								<p class="img-buy-title"></p>
-							</div>
-							<div class="price-container">
-								<p>xx.xx</p>
-								<p>€</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</main>
-		<footer>
-			<div class="footer-container">
-					<div class="main-links-container">
-							<p>Conocenos nas nosas redes sociais</p>
-							<div class="links-container">
-									<a href="">
-											<img src="" alt="acceso a nosa páxina de Facebook" />
-									</a>
-									<a href="">
-											<img src="" alt="acceso ao noso Instragram" />
-									</a>
-									<a href="">
-											<img src="" alt="acceso ao noso canle de Youtube" />
-									</a>
-									<a href="">
-											<img src="" alt="Accede ao noso canal de difusión en Wasap" />
-									</a>
-							</div>
-					</div>
-					<div>
-							<p>Copyrights Xogos Tradicionais Galegos</p>
-					</div>
-			</div>
-	</footer>
+    </footer>
 </body>
 </html>
